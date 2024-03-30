@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css"/>
+    <title>Document</title>
+</head>
+<body>
+    <div class="play">
+        <div class="snake-block" id="snakeBlock">
+          <!-- Здесь тела змейки -->
+        </div>
+        <div class="snake-eat" id="snakeEat"></div>
+        <div class="square-field" id="squareField"></div>
+        <div class="score-block">
+          <span>Score:</span>
+          <span id="scoreDoc">0</span>
+          <div class="btn">
+            <i class="fas fa-arrow-up" id="btnTop"></i>
+            <i class="fas fa-arrow-up fa-rotate-180" id="btnBottom"></i>
+            <i class="fas fa-arrow-up fa-rotate-270" id="btnLeft"></i>
+            <i class="fas fa-arrow-up fa-rotate-90" id="btnRight"></i>
+          </div>
+        </div>
+      </div>
+      <script src="./script.js"></script>
+</body>
+</html>
